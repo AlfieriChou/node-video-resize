@@ -1,6 +1,6 @@
 const path = require('path')
 const shell = require('shelljs')
-const { videoResize, getVideoInfo } = require('..')
+const { videoResize, loadVideoInfo } = require('..')
 
 const videoPath = path.resolve(__dirname, './test.mp4')
 const outputPath = path.resolve(__dirname, './output.mp4')
@@ -61,7 +61,7 @@ describe('video!!!', () => {
       format: 'mp4',
       size: '640x480'
     })
-    const videoInfo = await getVideoInfo(outputPath)
+    const videoInfo = await loadVideoInfo(outputPath)
     expect(videoInfo.streams[0].width).toEqual(640)
     expect(videoInfo.streams[0].height).toEqual(480)
     shell.rm('-rf', outputPath)
