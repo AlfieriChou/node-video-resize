@@ -23,7 +23,7 @@ bootstrap()
 * resize video
 
 ```javascript
-const { loadVideoInfo } = require('./')
+const { videoResize } = require('./')
 const path = require('path')
 
 const videoPath = path.resolve(__dirname, './__tests__/test.mp4')
