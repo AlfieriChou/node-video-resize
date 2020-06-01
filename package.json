@@ -1,0 +1,23 @@
+{
+  "name": "video-resize",
+  "version": "1.0.0",
+  "description": "Video resize.",
+  "main": "index.js",
+  "repository": "https://github.com/AlfieriChou/node-video-resize",
+  "scripts": {
+    "test": "jest --config ./jest.config.js --coverage --detectOpenHandles --forceExit"
+  },
+  "author": "AlfieriChou <alfierichou@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "@ffprobe-installer/ffprobe": "^1.0.12",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-ffprobe": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "jest-extended": "^0.11.5",
+    "shelljs": "^0.8.4"
+  }
+}
