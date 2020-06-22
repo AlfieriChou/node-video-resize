@@ -1,6 +1,6 @@
 {
-  "name": "video-resize",
-  "version": "1.0.0",
+  "name": "node-video-resize",
+  "version": "1.0.1",
   "description": "Video resize.",
   "main": "index.js",
   "repository": "https://github.com/AlfieriChou/node-video-resize",
