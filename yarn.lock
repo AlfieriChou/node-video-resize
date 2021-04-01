@@ -313,42 +313,6 @@
   resolved "https://registry.npm.taobao.org/@ffmpeg-installer/win32-x64/download/@ffmpeg-installer/win32-x64-4.1.0.tgz#17e8699b5798d4c60e36e2d6326a8ebe5e95a2c5"
   integrity sha1-F+hpm1eY1MYONuLWMmqOvl6VosU=
 
-"@ffprobe-installer/darwin-x64@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.npm.taobao.org/@ffprobe-installer/darwin-x64/download/@ffprobe-installer/darwin-x64-4.1.0.tgz#025c5108faf3e456e6a407dd65b798f8dcc805dd"
-  integrity sha1-AlxRCPrz5FbmpAfdZbeY+NzIBd0=
-
-"@ffprobe-installer/ffprobe@^1.0.12":
-  version "1.0.12"
-  resolved "https://registry.npm.taobao.org/@ffprobe-installer/ffprobe/download/@ffprobe-installer/ffprobe-1.0.12.tgz#0e2acf1e8ab3dfe7299efc23279473e158fdcaed"
-  integrity sha1-DirPHoqz3+cpnvwjJ5Rz4Vj9yu0=
-  optionalDependencies:
-    "@ffprobe-installer/darwin-x64" "4.1.0"
-    "@ffprobe-installer/linux-ia32" "4.1.0"
-    "@ffprobe-installer/linux-x64" "4.1.0"
-    "@ffprobe-installer/win32-ia32" "4.1.0"
-    "@ffprobe-installer/win32-x64" "4.1.0"
-
-"@ffprobe-installer/linux-ia32@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.npm.taobao.org/@ffprobe-installer/linux-ia32/download/@ffprobe-installer/linux-ia32-4.1.0.tgz#50b5952927b8b1bc42c3f2edd788b995e8470d17"
-  integrity sha1-ULWVKSe4sbxCw/Lt14i5lehHDRc=
-
-"@ffprobe-installer/linux-x64@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.npm.taobao.org/@ffprobe-installer/linux-x64/download/@ffprobe-installer/linux-x64-4.1.0.tgz#b67c96748457677171ca31b0fb83e4bd3c644ab5"
-  integrity sha1-tnyWdIRXZ3FxyjGw+4PkvTxkSrU=
-
-"@ffprobe-installer/win32-ia32@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.npm.taobao.org/@ffprobe-installer/win32-ia32/download/@ffprobe-installer/win32-ia32-4.1.0.tgz#19cc6d1043f7e54c2764ada6af8f7f26f98bbad8"
-  integrity sha1-GcxtEEP35UwnZK2mr49/JvmLutg=
-
-"@ffprobe-installer/win32-x64@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.npm.taobao.org/@ffprobe-installer/win32-x64/download/@ffprobe-installer/win32-x64-4.1.0.tgz#ed3e8a329eeb6c0625ac439e31ad9ec43001b33c"
-  integrity sha1-7T6KMp7rbAYlrEOeMa2exDABszw=
-
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/@istanbuljs/load-nyc-config/download/@istanbuljs/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -2670,11 +2634,6 @@ nice-try@^1.0.4:
   resolved "https://registry.npm.taobao.org/nice-try/download/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha1-ozeKdpbOfSI+iPybdkvX7xCJ42Y=
 
-node-ffprobe@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npm.taobao.org/node-ffprobe/download/node-ffprobe-3.0.0.tgz#e6a9f6942fb2dc9c0897a68c9292a366b10bccd7"
-  integrity sha1-5qn2lC+y3JwIl6aMkpKjZrELzNc=
-
 node-int64@^0.4.0:
   version "0.4.0"
   resolved "https://registry.npm.taobao.org/node-int64/download/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
@@ -3772,9 +3731,9 @@ xmlchars@^2.2.0:
   integrity sha1-Bg/hvLf5x2/ioX24apvDq4lCEMs=
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npm.taobao.org/y18n/download/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha1-le+U+F7MgdAHwmThkKEg8KPIVms=
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
+  integrity sha512-wNcy4NvjMYL8gogWWYAO7ZFWFfHcbdbE57tZO8e4cbpj8tfUcwrwqSl3ad8HxpYWCdXcJUCeKKZS62Av1affwQ==
 
 yargs-parser@^18.1.1:
   version "18.1.3"
